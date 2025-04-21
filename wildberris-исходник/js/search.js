@@ -8,7 +8,7 @@ const search = function() {
         console.log(event.target.value);
     
     })    
-    searchBtn.addEventListener('click', () => {
+    searchBtn.addEventListener('click', () => { // обработчик событий на кнопку поиска
         console.log(input.value);
     }) 
 }
